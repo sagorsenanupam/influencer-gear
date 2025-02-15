@@ -2,6 +2,8 @@
 
 * {
   font-family: "Poppins", serif;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* Shared styles */
@@ -14,12 +16,22 @@
   background-color: #e02c6d;
   border: none;
   border-radius: 41px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+section {
+  margin-top: 100px;
 }
 
 /* Nav bar styles */
 .nav-container {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 .nav-title {
   font-weight: bold;
@@ -28,5 +40,62 @@
 .nav-bar {
   display: flex;
   list-style: none;
-  gap: 34px;
+  text-decoration: none;
+  gap: 20px;
+}
+
+/* First section styles */
+.first-section {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.first-section-title {
+  font-size: 52px;
+  font-weight: bold;
+}
+.first-section-paragraph {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.first-section-left-side {
+  width: 582px;
+  height: 270px;
+}
+/* ------------------ */
+.first-section-img img {
+  background-image: url("/images/Circle\ design.svg");
+}
+
+/* Logos section */
+.logos-section {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Second section styles */
+.second-section-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+.second-section-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+.box-container {
+  border: 1px solid red;
+}
+.box-img {
+}
+.box-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.box-description {
 }
