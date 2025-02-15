@@ -81,21 +81,50 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15);
+  padding: 5px;
 }
 .second-section-title {
   font-size: 1.75rem;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 50px;
 }
 .box-container {
-  border: 1px solid red;
+  border: 2px solid red;
+  box-shadow: rgba(0, 0, 0, 0.15);
 }
 .box-img {
+  align-items: center;
 }
 .box-title {
   font-size: 1.75rem;
   font-weight: bold;
 }
 .box-description {
+  font-size: 1rem;
+  color: #3a3a3a;
+}
+
+/* Third Section Styles */
+.third-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.third-section-right-part {
+  width: 600px;
+  height: 224px;
+  align-items: center;
+  text-align: start;
+  margin: 23px;
+}
+.third-section-title {
+  font-size: 1.2rem;
+  color: #0a0826;
+  font-weight: bold;
+}
+.third-section-description {
+  font-size: 1rem;
+  color: #6c6c6c;
+  font-weight: bold;
 }
